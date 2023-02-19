@@ -8,8 +8,9 @@ does a traceroute with ping command, plus tells the type of addresses found
 $ ./fake_traceroute.py 
 Linux
 posix
-192.168.1.91 Private
+local 192.168.1.91 Private
 192.168.1.254 Private
+time-out on hop 2
 100.64.0.1 CGNAT
 100.64.0.2 CGNAT
 32.45.63.237 Global
